@@ -54,6 +54,7 @@ BUS TICKET
 ## 🚀 How to Run the Project  
 ### 1️⃣ Clone the Repository  git clone <repository-url>
 cd bus-ticket-booking
+
 ### 2️⃣ Setup Database  
 - Create a MySQL database  
 - Update credentials in `DBConnection.java`  
@@ -63,27 +64,40 @@ Example:
 String url = "jdbc:mysql://localhost:3306/your_db";
 String user = "root";
 String password = "your_password";
-3️⃣ Run the Application
-Open project in IDE
-Run ADUFrame.java
-👥 Team Collaboration
-GitHub is used for version control
-Each member can work on different modules
-Avoid pushing unnecessary files
-Follow proper commit messages
-📌 Notes
-Do not upload unnecessary files
-Ensure MySQL server is running
-Update database credentials properly
-🚀 Future Improvements
-Online payment integration
-Email/SMS ticket confirmation
-Real-time seat availability
-Mobile-friendly version
-📄 License
+### 3️⃣ Run the Application  
+- Open project in IDE  
+- Run `ADUFrame.java`  
 
-This project is developed for academic purposes.
+---
 
-✨ Acknowledgements
+## 👥 Team Collaboration  
+- GitHub is used for version control  
+- Each member can work on different modules  
+- Avoid pushing unnecessary files  
+- Follow proper commit messages  
 
-Thanks to all contributors who worked on this project.
+---
+
+## 📌 Notes  
+- Do not upload unnecessary files  
+- Ensure MySQL server is running  
+- Update database credentials properly  
+
+---
+
+## 🚀 Future Improvements  
+- Online payment integration  
+- Email/SMS ticket confirmation  
+- Real-time seat availability  
+- Mobile-friendly version  
+
+---
+
+## 📄 License  
+This project is developed for academic purposes.  
+
+---
+
+## ✨ Acknowledgements  
+Thanks to all contributors who worked on this project.  
+
