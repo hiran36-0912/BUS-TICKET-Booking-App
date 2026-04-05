@@ -1,70 +1,90 @@
 🚌 Bus Ticket Booking System
 
-This is a simple Bus Ticket Booking System built using Java. The project is designed to make ticket booking easier for users while also giving admins control over managing buses and bookings.
+A simple Bus Ticket Booking System built using Java and MySQL. This project allows users to search buses, book tickets, and manage reservations through an easy-to-use interface, while admins can manage buses and bookings efficiently.
 
-It has a clean interface where users can search for buses, select seats, and book tickets. At the same time, admins can add or manage bus details and keep track of reservations.
-
-✨ What this project does
-👤 For Users
-Create an account and log in
+📌 Features
+👤 User
+User Registration & Login
 Search available buses
-View details of buses
-Select seats easily
+View bus details
+Seat selection
 Book tickets
-Check booked tickets
-🛠️ For Admin
-Login as admin
+View booked tickets
+🛠️ Admin
+Admin login
 Add new buses
-Update or delete bus details
+Update bus details
+Delete buses
 Manage users
 View all bookings
-🏗️ How the project is organized
-BUS TICKET/
+🛠️ Tech Stack
+Frontend
+Java Swing (GUI)
+Backend
+Java
+JDBC
+Database
+MySQL
+📂 Project Structure
+BUS TICKET
+│
+├── src/com/adubus/
+│   ├── dao/          # Database operations
+│   ├── db/           # DB connection setup
+│   ├── model/        # User, Bus models
+│   ├── ui/           # UI components
+│   │   ├── admin/
+│   │   ├── auth/
+│   │   ├── panels/
+│   │   └── components/
+│
+├── mysql-connector   # MySQL JDBC driver
+│
+└── README.md
+⚙️ Prerequisites
 
-src/com/adubus/
- ├── dao/        → Handles database operations
- ├── db/         → Database connection setup
- ├── model/      → Classes like User, Bus
- ├── ui/         → User Interface (Swing)
-     ├── admin/
-     ├── auth/
-     ├── panels/
-     └── components/
+Make sure you have:
 
-mysql-connector → MySQL driver
-💻 Technologies used
-Java (Swing) – for building the UI
-MySQL – for storing data
-JDBC – for connecting Java with database
-⚙️ How to run this project
-
-Clone the repository
-
-git clone https://github.com/your-username/bus-ticket-booking.git
-Open in any Java IDE
-(IntelliJ / Eclipse / NetBeans)
-
-Set up the database
-
+Java (JDK 8 or above)
+MySQL Server
+MySQL Workbench / XAMPP (optional)
+Any IDE (IntelliJ / Eclipse / NetBeans)
+Git
+🚀 How to Run the Project
+1️⃣ Clone the Repository
+git clone <repository-url>
+cd bus-ticket-booking
+2️⃣ Setup Database
 Create a MySQL database
-Update your username & password in DBConnection.java
+Update credentials in DBConnection.java
 
 Example:
 
 String url = "jdbc:mysql://localhost:3306/your_db";
 String user = "root";
 String password = "your_password";
-Run the project
-Run ADUFrame.java
-🚀 Future improvements
-Add online payment system
-Send ticket confirmation via email/SMS
-Show real-time seat availability
-Build a mobile app version
-🤝 Contribution
+3️⃣ Run the Application
+Open project in IDE
+Run:
+ADUFrame.java
+👥 Team Collaboration
+GitHub is used for version control
+Each member can work on different modules
+Avoid pushing unnecessary files
+Follow proper commit messages
+📌 Notes
+Do not upload node_modules (if any) or unnecessary files
+Ensure MySQL server is running before starting
+Update database credentials properly
+🚀 Future Improvements
+Online payment integration
+Email/SMS ticket confirmation
+Real-time seat availability
+Mobile-friendly version
+📄 License
 
-If you want to improve this project, feel free to fork it and make changes. Suggestions are always welcome.
+This project is developed for academic purposes.
 
-📄 Note
+✨ Acknowledgements
 
-This project is mainly created for learning and academic purposes.
+Thanks to all contributors who worked on this project and helped in its development.
